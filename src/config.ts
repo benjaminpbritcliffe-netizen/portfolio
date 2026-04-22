@@ -1,91 +1,96 @@
 export const siteConfig = {
   name: "Benjamin Britcliffe",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  title: "Cyber Security Analyst",
+  description: "Portfolio website of Benjamin Britcliffe",
   accentColor: "#1d4ed8",
+
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "benjamin.britcliffe@example.com",
+    linkedin: "https://linkedin.com/in/benjaminbritcliffe",
+    twitter: "https://x.com/benjaminbritcliffe",
+    github: "https://github.com/benjaminpbritcliffe-netizen",
   },
+
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I'm a Cyber Security Analyst with a strong foundation in threat detection, network security, and vulnerability assessment. I enjoy working across the full security lifecycle — from reconnaissance and exploitation in controlled environments to building detection rules and hardening systems. This portfolio showcases hands-on projects that reflect my approach to practical, evidence-based security work.",
+
+  skills: [
+    "Python",
+    "Linux",
+    "Wireshark",
+    "Nmap",
+    "Splunk / SIEM",
+    "Penetration Testing",
+    "Networking & Protocols",
+    "Bash Scripting",
+  ],
+
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Project One",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A hands-on security project covering real-world attack and defence techniques. Includes full methodology, tooling, and documented findings.",
+      link: "https://github.com/benjaminpbritcliffe-netizen/cyber-portfolio/tree/main/folder-name-1",
+      skills: ["Python", "Nmap", "Linux"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Project Two",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "An in-depth vulnerability assessment and exploitation walkthrough with step-by-step analysis and remediation recommendations.",
+      link: "https://github.com/benjaminpbritcliffe-netizen/cyber-portfolio/tree/main/folder-name-2",
+      skills: ["Wireshark", "Networking", "Bash Scripting"],
     },
     {
-      name: "ExtensionKit",
+      name: "Project Three",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A threat detection and incident response project using SIEM tooling to identify, triage, and respond to simulated security events.",
+      link: "https://github.com/benjaminpbritcliffe-netizen/cyber-portfolio/tree/main/folder-name-3",
+      skills: ["Splunk / SIEM", "Python", "Linux"],
     },
   ],
+
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Your Current Employer",
+      title: "Cyber Security Analyst",
+      dateRange: "Jan 2024 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Monitor and investigate security alerts across SIEM platforms, triaging incidents and escalating where required",
+        "Conduct vulnerability assessments and assist with remediation planning across internal infrastructure",
+        "Produce threat intelligence reports and contribute to security awareness initiatives",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Previous Employer",
+      title: "IT / Security Support Analyst",
+      dateRange: "Jun 2022 - Dec 2023",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Supported day-to-day security operations including patch management and endpoint protection",
+        "Assisted with internal penetration testing exercises and documented findings",
+        "Maintained network monitoring dashboards and responded to first-line security queries",
       ],
     },
   ],
+
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Your University",
+      degree: "BSc Cyber Security",
+      dateRange: "2020 - 2023",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Graduated with First Class Honours",
+        "Dissertation focused on network intrusion detection using machine learning",
+        "Active member of the Cyber Security Society",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "CompTIA / Online Certification",
+      degree: "CompTIA Security+",
+      dateRange: "2023",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Passed on first attempt",
+        "Covered domains including threat management, cryptography, and identity access management",
+        "Complemented with hands-on TryHackMe and HackTheBox practice",
       ],
     },
   ],
