@@ -27,26 +27,76 @@ export const siteConfig = {
 
   projects: [
     {
-      name: "Project One",
+      name: "Computer Fundamentals",
       description:
         "A hands-on security project covering real-world attack and defence techniques. Includes full methodology, tooling, and documented findings.",
       link: "https://github.com/benjaminpbritcliffe-netizen/cyber-portfolio/tree/main/folder-name-1",
       skills: ["Python", "Nmap", "Linux"],
     },
     {
-      name: "Project Two",
+      name: "Cyber Events Archive",
       description:
         "An in-depth vulnerability assessment and exploitation walkthrough with step-by-step analysis and remediation recommendations.",
       link: "https://github.com/benjaminpbritcliffe-netizen/cyber-portfolio/tree/main/folder-name-2",
       skills: ["Wireshark", "Networking", "Bash Scripting"],
     },
     {
-      name: "Project Three",
+      name: "Cyber Laws & Ethics",
       description:
         "A threat detection and incident response project using SIEM tooling to identify, triage, and respond to simulated security events.",
       link: "https://github.com/benjaminpbritcliffe-netizen/cyber-portfolio/tree/main/folder-name-3",
       skills: ["Splunk / SIEM", "Python", "Linux"],
     },
+
+        {
+      name: "Cyber Security",
+      description:
+        "A threat detection and incident response project using SIEM tooling to identify, triage, and respond to simulated security events.",
+      link: "https://github.com/benjaminpbritcliffe-netizen/cyber-portfolio/tree/main/folder-name-3",
+      skills: ["Splunk / SIEM", "Python", "Linux"],
+    },
+
+        {
+      name: "Ebooks",
+      description:
+        "A threat detection and incident response project using SIEM tooling to identify, triage, and respond to simulated security events.",
+      link: "https://github.com/benjaminpbritcliffe-netizen/cyber-portfolio/tree/main/folder-name-3",
+      skills: ["Splunk / SIEM", "Python", "Linux"],
+    },
+
+        {
+      name: "House of Vokabel",
+      description:
+        "A threat detection and incident response project using SIEM tooling to identify, triage, and respond to simulated security events.",
+      link: "https://github.com/benjaminpbritcliffe-netizen/cyber-portfolio/tree/main/folder-name-3",
+      skills: ["Splunk / SIEM", "Python", "Linux"],
+    },
+
+        {
+      name: "Malware Analysis",
+      description:
+        "A threat detection and incident response project using SIEM tooling to identify, triage, and respond to simulated security events.",
+      link: "https://github.com/benjaminpbritcliffe-netizen/cyber-portfolio/tree/main/folder-name-3",
+      skills: ["Splunk / SIEM", "Python", "Linux"],
+    },
+
+        {
+      name: "Networking",
+      description:
+        "A threat detection and incident response project using SIEM tooling to identify, triage, and respond to simulated security events.",
+      link: "https://github.com/benjaminpbritcliffe-netizen/cyber-portfolio/tree/main/folder-name-3",
+      skills: ["Splunk / SIEM", "Python", "Linux"],
+    },
+
+       {
+      name: "Programming Fundamentals",
+      description:
+        "A threat detection and incident response project using SIEM tooling to identify, triage, and respond to simulated security events.",
+      link: "https://github.com/benjaminpbritcliffe-netizen/cyber-portfolio/tree/main/folder-name-3",
+      skills: ["Splunk / SIEM", "Python", "Linux"],
+    },
+
+
   ],
 
   experience: [
