@@ -51,10 +51,10 @@ export const siteConfig = {
       skills: ["Policy & Compliance", "Risk Management", "Security Frameworks"],
     },
     {
-      name: "Cyber Security",
+      name: "Cyber Security Fundamentals",
       description:
         "A broad practical project covering core cyber security disciplines including threat detection, incident response, and system hardening. Uses SIEM tooling to identify, triage, and respond to simulated security events across a range of scenarios.",
-      link: "https://github.com/benjaminpbritcliffe-netizen/cyber-portfolio/tree/main/Cyber%20Security",
+      link: "https://github.com/benjaminpbritcliffe-netizen/cyber-portfolio/tree/main/Cyber%20Security%20Fundamentals",
       skills: ["Splunk / SIEM", "Threat Detection", "Linux"],
     },
     {
@@ -91,6 +91,20 @@ export const siteConfig = {
         "A foundational programming project focused on building scripting and automation skills relevant to cyber security. Covers Python and Bash scripting through practical exercises including log parsing, file manipulation, and tool development.",
       link: "https://github.com/benjaminpbritcliffe-netizen/cyber-portfolio/tree/main/Programming%20Fundamentals",
       skills: ["Python", "Bash Scripting", "Linux"],
+    },
+            {
+      name: "Security Models",
+      description:
+        "A section on different models to help identify and mitigate cyber threats.",
+      link: "https://github.com/benjaminpbritcliffe-netizen/cyber-portfolio/tree/main/Security%20Models",
+      skills: ["Diamond Model", "Kill Chain", "MITRE Framework"],
+    },
+        {
+      name: "Security Principles And Procedures",
+      description:
+        "A section on how to keep a business compliant with security controls and policies.",
+      link: "https://github.com/benjaminpbritcliffe-netizen/cyber-portfolio/tree/main/Security%20Principles%20And%20Procedures",
+      skills: ["Risk Management", "Risk Identification", "Threat Modelling"],
     },
     {
       name: "Tools",
