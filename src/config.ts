@@ -86,13 +86,6 @@ export const siteConfig = {
       skills: ["Wireshark", "Nmap", "Networking & Protocols"],
     },
     {
-      name: "Programming Fundamentals",
-      description:
-        "A foundational programming project focused on building scripting and automation skills relevant to cyber security. Covers Python and Bash scripting through practical exercises including log parsing, file manipulation, and tool development.",
-      link: "https://github.com/benjaminpbritcliffe-netizen/cyber-portfolio/tree/main/Programming%20Fundamentals",
-      skills: ["Python", "Bash Scripting", "Linux"],
-    },
-            {
       name: "Security Models",
       description:
         "A section on different models to help identify and mitigate cyber threats.",
