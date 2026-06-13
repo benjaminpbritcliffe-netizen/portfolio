@@ -1,5 +1,7 @@
 ---
 import { siteConfig } from "../config";
+
+const emailHref = siteConfig.social?.email ? "mailto:" + siteConfig.social.email : "";
 ---
 
 <div
@@ -14,7 +16,7 @@ import { siteConfig } from "../config";
     {
       siteConfig.social?.email && (
         
-          href={"mailto:" + siteConfig.social.email}
+          href={emailHref}
           aria-label="Email"
           class="sidebar-icon"
         >
@@ -132,11 +134,10 @@ import { siteConfig } from "../config";
     top: 50%;
     transform: translateY(-50%);
     z-index: 50;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    display: none;
   }
 
   @media (min-width: 1024px) {
