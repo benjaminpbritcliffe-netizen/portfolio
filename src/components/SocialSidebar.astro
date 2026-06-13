@@ -15,7 +15,7 @@ const emailHref = siteConfig.social?.email ? "mailto:" + siteConfig.social.email
   <div class="sidebar-icons">
     {
       siteConfig.social?.email && (
-        
+        <a
           href={emailHref}
           aria-label="Email"
           class="sidebar-icon"
@@ -40,7 +40,7 @@ const emailHref = siteConfig.social?.email ? "mailto:" + siteConfig.social.email
     }
     {
       siteConfig.social?.linkedin && (
-        
+        <a
           href={siteConfig.social.linkedin}
           target="_blank"
           rel="noopener noreferrer"
@@ -70,7 +70,7 @@ const emailHref = siteConfig.social?.email ? "mailto:" + siteConfig.social.email
     }
     {
       siteConfig.social?.twitter && (
-        
+        <a
           href={siteConfig.social.twitter}
           target="_blank"
           rel="noopener noreferrer"
@@ -97,7 +97,7 @@ const emailHref = siteConfig.social?.email ? "mailto:" + siteConfig.social.email
     }
     {
       siteConfig.social?.github && (
-        
+        <a
           href={siteConfig.social.github}
           target="_blank"
           rel="noopener noreferrer"
