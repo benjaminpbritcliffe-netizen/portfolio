@@ -14,7 +14,7 @@ import { siteConfig } from "../config";
     {
       siteConfig.social?.email && (
         
-          href={`mailto:${siteConfig.social.email}`}
+          href={"mailto:" + siteConfig.social.email}
           aria-label="Email"
           class="sidebar-icon"
         >
@@ -127,20 +127,15 @@ import { siteConfig } from "../config";
 
 <style>
   .social-sidebar {
-    /* Fixed to the left edge, vertically centred */
     position: fixed;
     left: 1.5rem;
     top: 50%;
     transform: translateY(-50%);
     z-index: 50;
-
-    /* Stack line, icons, line vertically */
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-
-    /* Hide on small screens so it doesn't crowd mobile */
     display: none;
   }
 
@@ -153,7 +148,7 @@ import { siteConfig } from "../config";
   .sidebar-line {
     width: 1px;
     height: 80px;
-    background-color: #9ca3af; /* gray-400 */
+    background-color: #9ca3af;
   }
 
   .sidebar-icons {
@@ -164,7 +159,7 @@ import { siteConfig } from "../config";
   }
 
   .sidebar-icon {
-    color: #6b7280; /* gray-500 */
+    color: #6b7280;
     transition: color 0.3s ease, transform 0.3s ease;
     display: flex;
   }
